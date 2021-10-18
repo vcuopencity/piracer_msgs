@@ -20,7 +20,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-        "msg/SystemPower.msg")
+        "msg/SystemPower.msg"
+        "msg/Throttle.msg"
+        "msg/SteeringAngle.msg")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
