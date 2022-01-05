@@ -1,1 +1,1 @@
-float32 degree
+float32 radian
